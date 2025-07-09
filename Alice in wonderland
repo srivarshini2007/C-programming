@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    int n=23;
+    a=n/10;
+    b=n%10;
+    printf("Birds said:%d/n",n);
+    printf("Alice must go in path-%d\n",a+b);
+    return 0;
+}

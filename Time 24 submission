@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    float num=76.78;
+    int a=16;
+    int b=2;
+    int c=3;
+    printf("%d\n",(int)num);
+    printf("%d\n",(int)num+1);
+    printf("%d\n",a/b/b);
+    printf("%d\n",b*c+b);
+    return 0;
+}
